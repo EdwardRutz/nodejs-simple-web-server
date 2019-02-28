@@ -3,7 +3,6 @@
 > A node.js simple web server to use for data wrangling
 
 
-
 ## Dependencies
 
 - Node.js, v8.9.4
@@ -16,6 +15,7 @@
 - Check Node.js version, ` node --version `
 - Install dependencies, ` npm install `
 - Run a Node.js app, ` run node index.js `
+- Web servers listens for HTTP requests on port 3000, browser address `localhost:3000`
 
 ## Node.js Commands
 
@@ -33,7 +33,7 @@ npm init  -y
 //Add express
 npm install --save express
 ```
-
+-  The ` --save ` parameter saves the dependency in package.json and tracks the version number
 
 ## Sources
 
